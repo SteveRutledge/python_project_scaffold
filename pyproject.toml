@@ -18,3 +18,6 @@ click = "^7.1.2"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+python_project_scaffold = "python_project_scaffold.console:main"
